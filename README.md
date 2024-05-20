@@ -8,24 +8,26 @@ Smart Contracts represents an efficient solution to nowadays problems from centr
 
 In the project terminal: -
 
-1] mkdir my-react-truffle-app
-2] cd my-react-truffle-app
-3] npm init
-4] Change Entry Point: Update the entry point to truffle-config.js in package.json.
-5] npm i
-6] npm install truffle --save-dev
-7] truffle init
-8] truffle compile
-9] Add Migration Scripts: Create migration scripts for deploying contracts.
-10] install and run ganache, open and add the project file truffle-config.js
-11] Migrate Contracts: Migrate your contracts to the blockchain. using truffle migrate
-11] Update constant.js: Inside the Constant folder.
+1. mkdir my-react-truffle-app
+2. cd my-react-truffle-app
+3. npm init
+4. Change Entry Point: Update the entry point to truffle-config.js in package.json.
+5. npm i
+6. npm install truffle --save-dev
+7. truffle init
+8. truffle compile
+9. Add Migration Scripts: Create migration scripts for deploying contracts.
+10. install and run ganache, open and add the project file truffle-config.js
+11. Migrate Contracts: Migrate your contracts to the blockchain. using truffle migrate
+12. Update constant.js: Inside the Constant folder.
+
 const contractConstants = {
     contractAddress: "<Your_Contract_Address>",
     contractABI: "<Your_Contract_ABI>"
 };
 
 export default contractConstants;
-12] npm start
+
+12. npm start
 
 That's it now you're running the project!
